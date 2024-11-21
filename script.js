@@ -1,4 +1,3 @@
-// complete this js code
 class Person{
 	constructor(name, age){
 		this.name = name;
@@ -24,7 +23,7 @@ const obj = new Person("Alice",25);
 obj.greet();
 
 const obj2 = new Employee("Bob",30,"Manager");
-obj2.greet();
+obj2.jobGreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
