@@ -19,11 +19,11 @@ class Employee extends Person{
 		}
 }
 
-const obj = new Person("Alice",25);
-obj.greet();
+const a = new Person("Alice",25);
+a.greet();
 
-const obj2 = new Employee("Bob",30,"Manager");
-obj2.jobGreet();
+const b = new Employee("Bob",30,"Manager");
+b.jobGreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
