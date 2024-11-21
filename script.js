@@ -4,7 +4,7 @@ class Person{
 		this.age=age;
 	}
 	greet(){
-		console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`);
 	}	
 }
 
@@ -19,11 +19,11 @@ class Employee extends Person{
 		}
 }
 
-const a = new Person("Alice",25);
-a.greet();
+const obj = new Person('Alice',25);
+obj.greet();
 
-const b = new Employee("Bob",30,"Manager");
-b.jobGreet();
+const obj2 = new Employee('Bob',30,'Manager');
+obj2.jobGreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
